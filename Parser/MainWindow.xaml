@@ -7,6 +7,9 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
     <Grid>
-        
+        <TextBox x:Name="textBoxForUrl" HorizontalAlignment="Left" Height="274" Margin="10,10,0,0" TextWrapping="Wrap" Text="https://www.avito.ru/rossiya/rezume?s=101" VerticalAlignment="Top" Width="497"/>
+        <Button x:Name="button" Content="Find" HorizontalAlignment="Left" Margin="258,289,0,0" VerticalAlignment="Top" Width="249" Click="button_Click"/>
+        <Button x:Name="buttonWriteToDB" Content="WriteToDatabase" HorizontalAlignment="Left" Margin="0,289,0,0" VerticalAlignment="Top" Width="253" Click="buttonWriteToDB_Click" />
+
     </Grid>
 </Window>
